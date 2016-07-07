@@ -1,3 +1,7 @@
-$('document').ready(function(){
-    $('#show').html("<h1>H1</h1>");
+var $show = $('#show');
+
+$('document').ready(function() {
+    $.get("/increment", function(data, status) {
+        $show.html("Data: " +data);
+    });
 });
