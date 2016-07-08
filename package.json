@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/mkict/countProject#readme",
   "dependencies": {
-    "express": "^4.14.0"
+    "express": "^4.14.0",
+    "external-ip": "^0.2.4",
+    "mongodb": "^2.1.18"
   }
 }

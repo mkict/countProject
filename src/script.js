@@ -1,7 +1,8 @@
 var $show = $('#show');
 
 $('document').ready(function() {
-    $.get("/increment", function(data, status) {
-        $show.html("Data: " +data);
+    $.get('/visit', function(data, status) {
+        $show.html("Data: " + data);
+        console.log(data);
     });
 });
